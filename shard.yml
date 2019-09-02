@@ -1,0 +1,13 @@
+name: shards_bot
+version: 0.1.0
+
+authors:
+  - Hentioe_Cl <me@bluerain.io>
+
+targets:
+  shards_bot:
+    main: src/shards_bot.cr
+
+crystal: 0.30.1
+
+license: MIT
