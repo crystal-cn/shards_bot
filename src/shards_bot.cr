@@ -1,6 +1,9 @@
-# TODO: Write documentation for `ShardsBot`
-module ShardsBot
-  VERSION = "0.1.0"
+require "./shards_bot/cli"
 
-  # TODO: Put your code here
+module ShardsBot
+  def self.start
+
+  end
 end
+
+ShardsBot.start unless ENV["SHARDS_BOT_ENV"]? == "test"

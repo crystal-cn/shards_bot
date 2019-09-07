@@ -1,0 +1,30 @@
+version: 1.0
+shards:
+  callback:
+    github: mosop/callback
+    version: 0.6.3
+
+  cli:
+    github: mosop/cli
+    version: 0.7.0
+
+  dotenv:
+    github: gdotdesign/cr-dotenv
+    version: 0.3.0
+
+  i18n:
+    github: TechMagister/i18n.cr
+    version: 0.3.1
+
+  optarg:
+    github: mosop/optarg
+    version: 0.5.8
+
+  string_inflection:
+    github: mosop/string_inflection
+    version: 0.2.1
+
+  telegram_bot:
+    github: Hentioe/telegram_bot
+    commit: f36d378d69cf1d47f8ecdb3be89e6beed5831861
+

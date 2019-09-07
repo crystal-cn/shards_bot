@@ -2,7 +2,7 @@ name: shards_bot
 version: 0.1.0
 
 authors:
-  - Hentioe_Cl <me@bluerain.io>
+  - Hentioe <me@bluerain.io>
 
 targets:
   shards_bot:
@@ -11,3 +11,12 @@ targets:
 crystal: 0.30.1
 
 license: MIT
+
+dependencies:
+  telegram_bot:
+    github: Hentioe/telegram_bot
+    branch: bugfix
+  dotenv:
+    github: gdotdesign/cr-dotenv
+  i18n:
+    github: TechMagister/i18n.cr
